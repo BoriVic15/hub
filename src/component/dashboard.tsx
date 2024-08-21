@@ -24,8 +24,8 @@ import { Link } from 'react-router-dom';
 const Dashboard: React.FC = () => {
   return (
         <div className='z-50 relative'>
-          <div className='bg-gray-400 md:p-2 md:w-full md:h-screen -mt-4'>
-            <div className='bg-white text-sm font-semibold text-gray-800 font-sans rounded-md grid grid-cols-5 gap-4 md:w-full md:h-full m-0 p-0'>
+          <div className='bg-blue-400 md:p-2 md:w-full md:h-screen -mt-4'>
+            <div className='bg-gray-200 text-sm font-semibold text-gray-800 font-sans rounded-md grid grid-cols-5 gap-4 md:w-full md:h-full m-0 p-0'>
               <div className='bg-white col-span-1 border border-solid border-gray-200 p-2 rounded-md md:relative h-2/4'>
                 {/* link is yet to be added */}
                 <div className='flex justify-center'>
